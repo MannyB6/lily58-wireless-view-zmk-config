@@ -52,11 +52,11 @@
             label = "COPY";
         };
 
-        GOBACK: UNDO {
+        GOBACK: GOBACK {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LG(Z)>;
-            label = "UNDO";
+            label = "GOBACK";
         };
     };
 
